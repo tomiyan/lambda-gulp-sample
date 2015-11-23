@@ -1,0 +1,25 @@
+{
+  "name": "lambda-gulp-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "keywords": [],
+  "author": "tomiyan",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-install": "^0.6.0",
+    "gulp-zip": "^3.0.2",
+    "mocha": "^2.3.4",
+    "node-aws-lambda": "^0.1.6",
+    "run-sequence": "^1.1.5",
+    "sinon": "^1.17.2"
+  },
+  "dependencies": {
+    "dotenv": "^1.2.0"
+  }
+}

@@ -1,6 +1,6 @@
 var assert = require('assert');
 var sinon = require('sinon');
-var index = require('./index');
+var index = require('../index');
 
 describe('index', function () {
   it('mogeが返ること', function () {

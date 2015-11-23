@@ -1,4 +1,4 @@
-require('dotenv').load();
+require('dotenv').load({silent: true});
 
 module.exports = {
   region: 'ap-northeast-1',

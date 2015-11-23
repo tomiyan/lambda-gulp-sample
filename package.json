@@ -1,12 +1,12 @@
 {
   "name": "lambda-gulp-sample",
   "version": "1.0.0",
-  "description": "",
+  "description": "lamda gulp and mocha test sample",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha test/test.js"
   },
-  "keywords": [],
+  "keywords": ["lambda", "gulp", "mocha", "sample"],
   "author": "tomiyan",
   "license": "ISC",
   "devDependencies": {

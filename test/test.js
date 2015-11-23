@@ -7,7 +7,7 @@ describe('index', function () {
     var event = {},
       context = { succeed: function () {} };
     var mock = sinon.mock(context);
-    mock.expects('succeed').once().withArgs('moge');
+    mock.expects('succeed').once().withArgs('hoge');
     index.handler(event, context);
     mock.verify();
   })

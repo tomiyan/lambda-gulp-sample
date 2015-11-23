@@ -1,3 +1,3 @@
 exports.handler = function (event, context) {
-  context.succeed('hoge');
+  context.succeed('moge');
 };

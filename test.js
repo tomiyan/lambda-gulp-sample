@@ -3,11 +3,11 @@ var sinon = require('sinon');
 var index = require('./index');
 
 describe('index', function () {
-  it('hogeが返ること', function () {
+  it('mogeが返ること', function () {
     var event = {},
       context = { succeed: function () {} };
     var mock = sinon.mock(context);
-    mock.expects('succeed').once().withArgs('hoge');
+    mock.expects('succeed').once().withArgs('moge');
     index.handler(event, context);
     mock.verify();
   })
